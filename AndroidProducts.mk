@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_dm3q.mk
+    $(LOCAL_DIR)/twrp_dm3q.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_dm3q-user \
-    omni_dm3q-userdebug \
-    omni_dm3q-eng
+    twrp_dm3q-user \
+    twrp_dm3q-userdebug \
+    twrp_dm3q-eng
