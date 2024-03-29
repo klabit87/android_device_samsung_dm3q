@@ -10,13 +10,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from dm3q device
 $(call inherit-product, device/samsung/dm3q/device.mk)
 
 PRODUCT_DEVICE := dm3q
-PRODUCT_NAME := omni_dm3q
+PRODUCT_NAME := twrp_dm3q
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-S918B
 PRODUCT_MANUFACTURER := samsung
